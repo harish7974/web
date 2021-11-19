@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #333647;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  cursor: pointer;
+}
+.container{
+  height: 700px;
+}
+.nav_section .navbar-brand {
+  font-size: 22px;
+}
+.main-section{
+  position: absolute;
+  top: 100px;
+  left: 200px;}
+.nav_section .navbar-nav li {
+  margin: 0px 8px;
+}
+.nav_section .navbar-nav li a {
+  color: white !important;
+  font-size: 18px;
+}
+.nav_section .navbar-nav .nav-link::before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 7px;
+  transition: 0.5s;
+}
+.nav_section .navbar-nav .nav-link:hover::before {
+  content: "";
+  width: 17px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 7px;
+}
+.main-section .row {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.main-section .row h3 {
+  font-size: 19px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+.main-section .row h3::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  top: 110px;
+  background-color: #fff;
+  margin-left: 6px;
+}
+.main-section .row h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+.main-section .row h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 8px 0px;
+}
+.main-section .row p {
+  font-size: 13px;
+  margin-top: 13px;
+  line-height: 23px;
+  color: white;
+}
+.main-section .row button {
+  border-radius: 10px;
+  font-size: 19px;
+  color: white;
+  background-color: pink;
+  border: 3px solid pink;
+  width: 100px;
+  font-family: "poppins", sans-serif;
+}
+.main-section .row img {
+  width: 400px;
+  margin-top: 100px;
+}
+.main-section .row button:hover {
+  animation: swing 0.5s;
+  background: #fff;
+  color: black;
+  border-color: white;
+}
+@media (max-width: 1200px) and (min-width: 993px) {
+  .main-section .row h1 {
+    font-size: 58px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 993px) {
+  .main-section .row h1 {
+    font-size: 42px;
+  }
+  .main-section .row h2 {
+    font-size: 15px;
+  }
+  .main-section .row h3 {
+    font-size: 15px;
+  }
+  .main-section .row p {
+    font-size: 11px;
+  }
+  .main-section .row button {
+    font-size: 15px;
+  }
+}
+@media (max-width: 763px) and (min-width: 500px) {
+  .main-section {
+    margin: 55px 0px;
+  }
+  .main-section .row h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  .main-section .row h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main-section .row h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .main-section .row p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .main-section .row button {
+    font-size: 15px;
+  }
+  .main-section .btn_container {
+    justify-content: center;
+    text-align: center;
+  }
+  .main-section .btn_container button {
+    width: 100px;
+    height: 43px;
+    font-size: 15px;
+  }
+}
+.particles-js-canvas-el {
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1000;
+    margin: 0px;
+  }
+.about{
+  background-color: none;
+  padding: 170px 0px;
+  margin-bottom: -90px;
+} 
+.about .heading{
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  line-height: 57px;
+}
+.about .lets{
+  color: white;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.about #info{
+  font-size: 15px;
+  font-weight: 600;
+  color: pink;
+  margin-top: 35px;
+  word-spacing: 6px;
+}
+.about .contact{
+  margin-top: 15px;
+}
+.about .contact h5{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  word-spacing: 6px;
+}
+.about .about_right #txt{
+  font-size: 15px;
+  margin-top: 13px;
+  line-height: 25px;
+  color: pink;
+}
+.about .about_right hr{
+  margin: 0px;
+  border: 0.5px solid pink;
+  width: 100px;
+}
+.about .about_right table td{
+  border: none;
+  color: white;
+  font-size: 13px;
+}
+.about .about_right button{
+  border-radius: 7px;
+  font-size: 15px;
+  color: white;
+  background-color: orange;
+  border: 3px solid orange;
+  font-family: 'poppins', sans-serif;
+  margin-top: 10px;
+}
+.about .about_right button:hover{
+  animation: swing;
+  animation-duration: 0.5s;
+}
+@media (max-width:993px) and (min-width:768px){
+  .about .about_right #txt{
+    font-size: 12px;
+  }
+  .about .about_right .heading{
+font-size: 30px;
+  }
+}
+.skill{
+  padding: 100px 0px;
+  }
+.skill .skill_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skill #heading{
+  font-weight: 600;
+  font-size: 50px;
+}
+.skill hr{
+  border: 0.5px solid pink;
+  width: 220px;
+  margin: 12px 0px;
+}
+.skill p{
+  font-size: 13px;
+}
+.skill .social_media_icons .list-group-item{
+  border: none;
+  color: white;
+  border-left: 2px solid pink;
+  width: 200px;
+  margin: 5px 0px;
+  font-size: 14px;
+  background: #81818180;
+}
+.skill .social_media_icons .list-group-item a{
+  transition: 0.5s;
+}
+.skill .social_media_icons .list-group-item a:hover{
+  margin-left: 10px;
+}
+.skill_right .each_skill{
+  margin: 25px 0px;
+}
+.skill_right .each_skill span{
+  color: #fff;
+  font-size: 14px;
+}
+.skill_right .each_skill .progress{
+  background: #81818180;
+  border-radius: 100px;
+  margin-top: 3px;
+  height: 10px;
+}
+.skill_right .each_skill .progress-bar{
+  background-color: pink;
+}
+.contact_sec{
+  background-color: #282A39;
+  padding-bottom: 170px;
+}
+.contact_sec .heading{
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+.contact_sec hr{
+  border: 0.5px solid pink;
+  width: 190px;
+  margin-left: 5px;
+}
+.contact_sec .txt{
+  font-size: 13px;
+  color: wheat;
+}
+.contact_sec form .form-control{
+  background: #333647;
+  border: 2px solid #282A39;
+  border-radius: 0px;
+  color: white;
+}
+.contact_sec form .btn{
+  background: pink;
+  border: 2px solid pink;
+  font-size: 15px;
+  width: 100px;
+  color: #fff;
+}
+.contact_sec form .btn:hover{
+  animation: swing 0.5s;
+}
+.contact_sec ul li{
+  color: white;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.contact_sec ul li .fa{
+  color: orange;
+}
+@media (max-width: 991px) and (min-width:768px){
+  .contact_sec .heading{
+    font-size: 42px;
+  }
+}
+.footer-area{
+  background:#282A39;
+  border-top: 2px solid white;
+  padding: 40px 0px;
+  color: white;
+}
+.footer-area .navbar-brand{
+  font-size: 23px;
+}
+.footer-area p{
+  margin-top: 13px;
+  font-size: 12px;
+}
+.footer-area .logo-area .fa{
+  color: orange;
+  font-size: 17px;
+  border: 2px solid pink;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 5px;
+  padding: 10px;  
+}
+.footer-area .logo-area .fa:hover{
+  animation: swing 0.5s;
+  background:white;
+}
+.footer-area .row .column .heading{
+  font-weight: 400;
+  font-size: 21px;
+}
+.footer-area .list-group .list-group-item{
+  margin: -3px 0px;
+  color: white;
+  transition: 0.5s;
+}
+.footer-area .list-group .list-group-item:hover i{
+  padding-right: 10px;
+}
+.footer-area .list-group .list-group-item i{
+  font-size: 10px;
+  color: pink;
+  transition: 0.4s;
+}
+@media (max-width:767px) and (min-width:500px){
+  .footer-area .links{
+    margin-bottom: 30px;
+  }
+  .footer-area .row .column .heading{
+    font-size: 17px;
+  }
+}
